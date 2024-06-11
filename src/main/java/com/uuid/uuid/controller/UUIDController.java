@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("${api.uuidcontext}")
 public class UUIDController {
 
-
     @Autowired
     private UUIDService uuidService;
 
